@@ -19,10 +19,12 @@ public class Application {
         System.out.println(smallKotik.getWeight());
 
         System.out.println("Количество котиков - " + Kotik.getCount());
-        compareVoice(smallKotik, bigKotik);
-        System.out.println(compareVoice(smallKotik, bigKotik));
+
+        compareVoice(smallKotik.getVoice(), bigKotik.getVoice());
+
+        System.out.println(compareVoice(smallKotik.getVoice(), bigKotik.getVoice()));
     }
-    public static boolean compareVoice(Kotik k1, Kotik k2){
-        if (k1.getVoice() == k2.getVoice()) return true; else return false;
+    public static boolean compareVoice(String k1, String k2){
+        if (k1 == k2) return true; else return false;
     }
 }
