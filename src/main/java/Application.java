@@ -25,6 +25,9 @@ public class Application {
         System.out.println(compareVoice(smallKotik, bigKotik));
     }
     public static boolean compareVoice(animals.Kotik k1, animals.Kotik k2){
-        return true;
+        if (k1.getVoice() == k2.getVocie()){
+            return true;}
+        else {return false;}
+        }
     }
 }
