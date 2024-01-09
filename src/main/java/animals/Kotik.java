@@ -7,7 +7,7 @@ public class Kotik {
     private int weight;
     static private int count = 0;
 
-    private int METHODS =5;
+    static private int METHODS =5;
 
     public String getName() {
         return name;
@@ -132,6 +132,10 @@ public class Kotik {
 
     public void eat(int increaseSatiety, String foodName) {
 
+    }
+
+    public void eat(){
+        
     }
 
 

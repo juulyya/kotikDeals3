@@ -7,7 +7,7 @@ public class Application {
 
         Kotik smallKotik = new Kotik();
         smallKotik.setName("Соня");
-        smallKotik.setVoice("Миу");
+        smallKotik.setVoice("Мяу");
         smallKotik.setSatiety(2);
         smallKotik.setWeight(5);
 
@@ -23,6 +23,6 @@ public class Application {
         System.out.println(compareVoice(smallKotik, bigKotik));
     }
     public static boolean compareVoice(Kotik k1, Kotik k2){
-        if (k1.getName() == k2.getName()) return true; else return false;
+        if (k1.getVoice() == k2.getVoice()) return true; else return false;
     }
 }
