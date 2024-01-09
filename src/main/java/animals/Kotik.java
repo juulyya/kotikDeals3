@@ -131,7 +131,7 @@ public class Kotik {
     }
 
     public void eat(int increaseSatiety, String foodName) {
-
+        eat(2);
     }
 
     public void eat(){
