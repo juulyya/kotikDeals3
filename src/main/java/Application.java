@@ -18,11 +18,11 @@ public class Application {
         System.out.println(smallKotik.getName());
         System.out.println(smallKotik.getWeight());
 
-        System.out.println("Количество котиков - " + Kotik.count);
+        System.out.println("Количество котиков - " + Kotik.getCount());
 
         System.out.println(compareVoice(smallKotik, bigKotik));
     }
-    public static String compareVoice(Kotik k1, Kotik k2){
-        if (k1.getName() == k2.getName()) return "Одинаково"; else return "По-разному";
+    public static boolean compareVoice(Kotik k1, Kotik k2){
+        if (k1.getName() == k2.getName()) return true; else return false;
     }
 }

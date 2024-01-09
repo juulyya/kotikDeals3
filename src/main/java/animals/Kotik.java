@@ -5,7 +5,9 @@ public class Kotik {
     private String voice;
     private int satiety;
     private int weight;
-    static public int count = 0;
+    static private int count = 0;
+
+    private int METHODS =5;
 
     public String getName() {
         return name;
@@ -39,7 +41,7 @@ public class Kotik {
         this.weight = weight;
     }
 
-    public int getCount() {
+    public static int getCount() {
         return count;
     }
 
