@@ -19,7 +19,7 @@ public class Application {
         System.out.println(smallKotik.getWeight());
 
         System.out.println("Количество котиков - " + Kotik.getCount());
-
+        compareVoice(smallKotik, bigKotik);
         System.out.println(compareVoice(smallKotik, bigKotik));
     }
     public static boolean compareVoice(Kotik k1, Kotik k2){
